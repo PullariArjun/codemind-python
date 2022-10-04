@@ -1,0 +1,13 @@
+n=int(input())
+i,j,s=0,1,0
+x=0
+while(s<n):
+    s=i+j
+    i=j
+    j=s
+    if(s==n):
+        x=1
+if(x==1):
+    print(True)
+else:
+    print(False)
